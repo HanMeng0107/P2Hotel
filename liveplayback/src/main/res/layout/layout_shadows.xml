@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/movie_shadow_one"
+        android:layout_width="@dimen/w_454"
+        android:layout_height="@dimen/h_660"
+        android:layout_marginLeft="@dimen/w_13"
+        android:layout_marginTop="@dimen/h_15"
+        android:paddingRight="1dp"
+        android:src="@mipmap/movie_shadow"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/movie_shadow_two"
+        android:layout_width="@dimen/w_454"
+        android:layout_height="@dimen/h_660"
+        android:layout_marginLeft="@dimen/w_374"
+        android:layout_marginTop="@dimen/h_15"
+        android:paddingRight="1dp"
+        android:src="@mipmap/movie_shadow"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/movie_shadow_three"
+        android:layout_width="@dimen/w_454"
+        android:layout_height="@dimen/h_660"
+        android:layout_marginLeft="@dimen/w_733"
+        android:layout_marginTop="@dimen/h_15"
+        android:paddingRight="1dp"
+        android:src="@mipmap/movie_shadow"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/movie_shadow_four"
+        android:layout_width="@dimen/w_454"
+        android:layout_height="@dimen/h_660"
+        android:layout_marginLeft="@dimen/w_1094"
+        android:layout_marginTop="@dimen/h_15"
+        android:paddingRight="1dp"
+        android:src="@mipmap/movie_shadow"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/movie_shadow_five"
+        android:layout_width="@dimen/w_454"
+        android:layout_height="@dimen/h_660"
+        android:layout_marginLeft="@dimen/w_1454"
+        android:layout_marginTop="@dimen/h_15"
+        android:paddingRight="1dp"
+        android:src="@mipmap/movie_shadow"
+        android:visibility="gone" />
+
+</FrameLayout>

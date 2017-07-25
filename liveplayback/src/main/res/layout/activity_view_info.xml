@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/view_info_bg_now"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/view1" />
+
+    <ImageView
+        android:id="@+id/view_info_bg_last"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/view1" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#50ffffff" />
+
+    <FrameLayout
+        android:layout_width="@dimen/w_1836"
+        android:layout_height="@dimen/h_996"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/h_52">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_viewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/view_info_left"
+            android:layout_width="@dimen/w_65"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/w_14"
+            android:src="@mipmap/arrow_left" />
+
+        <ImageView
+            android:id="@+id/view_info_right"
+            android:layout_width="@dimen/w_65"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="@dimen/w_14"
+            android:src="@mipmap/arrow_right" />
+    </FrameLayout>
+</FrameLayout>

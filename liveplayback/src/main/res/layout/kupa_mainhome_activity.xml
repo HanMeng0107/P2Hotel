@@ -1,0 +1,236 @@
+<com.hejunlin.liveplayback.layout.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_50"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <com.hejunlin.liveplayback.layout.MainUpViewLayout
+        android:id="@+id/mainUpView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:upImageRes="@drawable/round" />
+
+    <com.hejunlin.liveplayback.layout.MyFrameMainLayout
+        android:id="@+id/main_lay2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+        <com.hejunlin.liveplayback.layout.ReflectItemViewLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/h_810"
+            android:background="@mipmap/mainpage_hotel">
+
+            <LinearLayout
+                android:layout_width="@dimen/w_330"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/w_1451"
+                android:background="@color/homepage_basearea_back"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/h_38"
+                    android:text="2017年3月2日 周四"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h_30" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/h_10"
+                    android:text="17:59"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/h_80" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/h_38"
+                    android:layout_marginTop="@dimen/h_10"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/weather"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="小雨"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/h_30" />
+
+                        <TextView
+                            android:id="@+id/temperature"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/h_10"
+                            android:text="15℃~25℃"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/h_30" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/weatherPicture"
+                        android:layout_width="@dimen/w_82"
+                        android:layout_height="@dimen/h_82"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/w_37" />
+                </LinearLayout>
+            </LinearLayout>
+        </com.hejunlin.liveplayback.layout.ReflectItemViewLayout>
+
+        <ImageView
+            android:id="@+id/img_tvlive"
+            android:layout_width="@dimen/w_124"
+            android:layout_height="@dimen/h_124"
+            android:layout_marginLeft="@dimen/w_138"
+            android:layout_marginTop="@dimen/h_850"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="@dimen/w_15"
+            android:src="@mipmap/normal_icon_tvlive" />
+
+        <TextView
+
+            android:id="@+id/txt_tvlive"
+            android:layout_width="@dimen/w_164"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_118"
+            android:layout_marginTop="@dimen/h_1000"
+            android:gravity="center"
+            android:text="电视直播" />
+
+        <ImageView
+
+            android:id="@+id/img_allmovie"
+            android:layout_width="@dimen/w_124"
+            android:layout_height="@dimen/h_124"
+            android:layout_marginLeft="@dimen/w_441"
+            android:layout_marginTop="@dimen/h_850"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="@dimen/w_15"
+            android:src="@mipmap/normal_icon_allmovie" />
+
+        <TextView
+
+            android:id="@+id/txt_allmovie"
+            android:layout_width="@dimen/w_164"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_421"
+            android:layout_marginTop="@dimen/h_1000"
+            android:gravity="center"
+            android:text="电影点播" />
+
+        <ImageView
+
+            android:id="@+id/img_onlinemall"
+            android:layout_width="@dimen/w_124"
+            android:layout_height="@dimen/h_124"
+            android:layout_marginLeft="@dimen/w_744"
+            android:layout_marginTop="@dimen/h_850"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="@dimen/w_15"
+            android:src="@mipmap/normal_icon_onlinemall" />
+
+        <TextView
+
+            android:id="@+id/txt_onlinemall"
+            android:layout_width="@dimen/w_164"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_724"
+            android:layout_marginTop="@dimen/h_1000"
+            android:gravity="center"
+            android:text="在线商城" />
+
+        <ImageView
+
+            android:id="@+id/img_entertainment"
+            android:layout_width="@dimen/w_124"
+            android:layout_height="@dimen/h_124"
+            android:layout_marginLeft="@dimen/w_1047"
+            android:layout_marginTop="@dimen/h_850"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="@dimen/w_15"
+            android:src="@mipmap/normal_icon_entertainment" />
+
+        <TextView
+
+            android:id="@+id/txt_entertainment"
+            android:layout_width="@dimen/w_164"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_1027"
+            android:layout_marginTop="@dimen/h_1000"
+            android:gravity="center"
+            android:text="周边美食" />
+
+        <ImageView
+
+            android:id="@+id/img_trip"
+            android:layout_width="@dimen/w_124"
+            android:layout_height="@dimen/h_124"
+            android:layout_marginLeft="@dimen/w_1350"
+            android:layout_marginTop="@dimen/h_850"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="@dimen/w_15"
+            android:src="@mipmap/normal_icon_trip" />
+
+        <TextView
+
+            android:id="@+id/txt_trip"
+            android:layout_width="@dimen/w_164"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_1330"
+            android:layout_marginTop="@dimen/h_1000"
+            android:gravity="center"
+            android:text="旅游景点" />
+
+        <ImageView
+
+            android:id="@+id/img_myhotel"
+            android:layout_width="@dimen/w_124"
+            android:layout_height="@dimen/h_124"
+            android:layout_marginLeft="@dimen/w_1653"
+            android:layout_marginTop="@dimen/h_850"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="@dimen/w_15"
+            android:src="@mipmap/normal_icon_myhotel" />
+
+        <TextView
+
+            android:id="@+id/txt_myhotel"
+            android:layout_width="@dimen/w_164"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_1633"
+            android:layout_marginTop="@dimen/h_1000"
+            android:gravity="center"
+            android:text="酒店服务" />
+    </com.hejunlin.liveplayback.layout.MyFrameMainLayout>
+
+</com.hejunlin.liveplayback.layout.PercentRelativeLayout>

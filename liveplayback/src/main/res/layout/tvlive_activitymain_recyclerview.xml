@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tvlive_activity_main_bg"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/ry_menu_item"
+        android:layout_width="@dimen/w_300"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/h_100"
+        android:layout_marginTop="@dimen/h_100"
+        android:focusable="false" />
+
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_title_general">General</string>
+    <string name="pref_key_enable_background_play">pref.enable_background_play</string>
+    <string name="pref_title_enable_background_play">Enable background play</string>
+    <string name="pref_summary_enable_background_play">need Android 4.0+</string>
+    <string name="pref_key_using_android_player">pref.using_android_player</string>
+    <string name="pref_title_using_android_player">Using system player</string>
+    <string name="pref_summary_using_android_player"></string>
+    <string name="pref_key_player">pref.player</string>
+    <string name="pref_title_player">Choose Player</string>
+
+    <string-array name="pref_entries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_values_player">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+
+    <!--  -->
+    <string name="pref_title_ijkplayer_video">Video: ijkplayer</string>
+    <string name="pref_key_using_media_codec">pref.using_media_codec</string>
+    <string name="pref_title_using_media_codec">Using MediaCodec</string>
+    <string name="pref_summary_using_media_codec"></string>
+    <string name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate</string>
+    <string name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate</string>
+    <string name="pref_summary_using_media_codec_auto_rotate"></string>
+    <string name="pref_key_pixel_format">pref.pixel_format</string>
+    <string name="pref_title_pixel_format">Pixel Format</string>
+
+    <string-array name="pref_entries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888X</item>
+        <item>YV12</item>
+    </string-array>
+    <string-array name="pref_entry_values_pixel_format">
+        <item></item>
+        <item>fcc-rv16</item>
+        <item>fcc-rv32</item>
+        <item>fcc-yv12</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888X</item>
+        <item>YV12</item>
+    </string-array>
+
+    <string name="N_A">N/A</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="sample">Sample</string>
+    <string name="recent">Recent</string>
+    <string name="settings">Settings</string>
+    <string name="toggle_render">Render</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="show_info">Info</string>
+    <string name="fps_output">fps (output)</string>
+    <string name="fps_decode">fps (decode)</string>
+    <string name="media_information">Media Information</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="TrackType_video">Video</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_unknown">Unknown</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">Unknown</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+    <!--  -->
+    <string name="pref_title_ijkplayer_audio">Audio: ijkplayer</string>
+    <string name="pref_key_using_opensl_es">pref.using_opensl_es</string>
+    <string name="pref_title_using_opensl_es">Using OpenSL ES</string>
+    <string name="pref_summary_using_opensl_es"></string>
+
+    <!--  -->
+    <string name="pref_title_render_view">RenderView</string>
+    <string name="pref_key_enable_no_view">pref.enable_no_view</string>
+    <string name="pref_title_enable_no_view">Enable NoView</string>
+    <string name="pref_summary_enable_no_view"></string>
+    <string name="pref_key_enable_surface_view">pref.enable_surface_view</string>
+    <string name="pref_title_enable_surface_view">Enable SurfaceView</string>
+    <string name="pref_summary_enable_surface_view"></string>
+    <string name="pref_key_enable_texture_view">pref.enable_texture_view</string>
+    <string name="pref_title_enable_texture_view">Enable TextureView</string>
+    <string name="pref_summary_enable_texture_view"></string>
+    <string name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture</string>
+    <string name="pref_title_enable_detached_surface_texture">Enable detached SurfaceTexture</string>
+    <string name="pref_summary_enable_detached_surface_texture"></string>
+
+    <!--  -->
+    <string name="pref_key_last_directory"></string>
+    <string name="hello">请输入共享服务器IP</string>
+    <string name="app_name">Kupa影音</string>
+    <string name="video_list">视频列表</string>
+    <string name="refresh">刷新</string>
+    <string name="in_refresh">停止刷新</string>
+    <string name="unknown">未知</string>
+    <string name="no_playing_target">没有可播放的视频.</string>
+    <string name="video_name">视频名称:</string>
+    <string name="video_width_height">视频尺寸:</string>
+    <string name="video_size">文件大小:</string>
+    <string name="created_time">创建时间:</string>
+    <string name="about">关于</string>
+    <string name="videoname">KUPA影视</string>
+    <string name="title_activity_video_item_detail">VideoItemDetailActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="videoName">生化危机：终章</string>
+    <string name="videoicon">videoicon</string>
+    <string name="anothername">别        名:</string>
+    <string name="protagonist">主        演:</string>
+    <string name="zhuyan">米拉·乔沃维奇 ，伊恩·格雷</string>
+    <string name="grade">9.3分</string>
+    <string name="daoyan">导        演:</string>
+    <string name="area">澳大利亚、加拿大、法国、德国</string>
+    <string name="style">动作、惊悚、科幻、冒险</string>
+    <string name="date">2017-2-23</string>
+    <string name="shichang">时        长:</string>
+    <string name="duration">106分钟</string>
+    <string name="play">立即播放</string>
+    <string name="mainPage_time">09:19</string>
+    <string name="movie">高清影院</string>
+    <string name="happy">周边娱乐</string>
+    <string name="hotel">我的酒店</string>
+    <string name="tour">旅游景点</string>
+    <string name="welcom">欢迎使用KUPA影视系统，KUPA祝您观影愉快！</string>
+    <string name="main_movie">mainMovie</string>
+    <string name="main_happy">mainHappy</string>
+    <string name="main_tour">mainTour</string>
+    <string name="main_hotel">mainHotel</string>
+    <string name="weather"></string>
+    <string name="titledate">2017.2.28 星期二</string>
+    <string name="titlelogo">logo</string>
+    <string name="video">电影</string>
+    <string name="video_abstract">影片以汪星人的视角展现狗狗和人类的微妙情感，一只狗狗陪伴小主人长大成人，甚至为他追到了女朋友，后来它年迈死去又转世投胎变成其他性别和类型的汪，第二次轮回狗狗变成了警犬威风凛凛，再次转轮回，又成了陪伴一位单身女青年的小柯基犬。在经历了多次轮回之后，最终回到最初的主人身边。</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_tv_live">TvLiveActivity</string>
+    <string name="title_activity_tvlive_main">TvliveMainActivity</string>
+    <string name="hot_movie">热门精选</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="view1">广州塔（英语：Canton Tower）又称广州新电视塔，昵称小蛮腰，位于广州市海珠区（艺洲岛）赤岗塔附近，距离珠江南岸125米，与珠江新城、花城广场、海心沙岛隔江相望。广州塔塔身主体高454米，天线桅杆高146米，总高度600米[1-2]  。是中国第一高塔，世界第二高塔，仅次于东京晴空塔。</string>
+    <string name="view4">越秀公园是广州最早的公园之一，也是广州规模最大的综合性公园。民国时期，孙中山先生提出要把越秀山建成一座大公园。广州解放后这一构想得到了实现。如今，越秀公园自然风景优美，富有亚热带地区的景物特点，而且还保存了各种历史文物和遗迹。新建的园道还连接着各个景点。</string>
+    <string name="view3">广州石室圣心大教堂坐落于广州市区中心一德路。圣心大教堂于1863年6月18日圣心瞻礼日正式举行奠基典礼，故命名圣心大教堂。历时25年始建成，是天主教广州教区最宏伟、最具有特色的一间大教堂。石室圣心大教堂由法国设计师设计，中国工匠建造而成。</string>
+    <string name="view2">沙面是广州重要商埠，历经百年，曾有十多个国家在沙面设立领事馆，九家外国银行、四十多家洋行在沙面经营，粤海关会所、广州俱乐部等在沙面相继成立。
+    沙面见证了广州近代史的变迁，留下了孙中山先生、周恩来总理等伟人的足迹，
+    沙面已成为我国近代史与租界史的缩影，沙面岛上欧陆风情建筑形成了独特的露天建筑“博物馆”。已被开发成国家5A级景区，是广州著名的旅游区、风景区和休闲胜地。</string>
+
+    <string name="food_1">鲍鱼主要产于南澳海湾的海崖险要处，尤以东冲的鹿咀为最多。鲍鱼肉很发达，肉质滑爽脆嫩，营养特别丰富，自古被视为“鲍、参、翅、肚”四海味珍品之首。“南澳鲍鱼”和“官湖鲍鱼”已在深圳市场创出品牌，现在，许多深圳市民都知道“吃海鲜，到南澳”，龙岗区南澳街道也是全国最大规模的陆地养鲍基地之一。</string>
+    <string name="food_2">钵仔糕是广东省的地方特色传统糕点小吃之一。以爽滑可口、口味丰富著称。主料是粘米粉和澄面，味甜。钵仔糕可以分成两大类：老式钵仔糕和水晶钵仔糕。老式钵仔糕在以前比较多，现在多见的是水晶钵仔糕。</string>
+    <string name="food_3">肠粉是广东的一大特色美食。深圳的肠粉店遍布了角角落落。在中国34个省级行政区中，只有广东省才有最正宗的肠粉。但在深圳的肠粉，融合了各地特色，有加辣椒的，也有加其他地区特色香料的，成就了深圳肠粉多姿多彩的风味。</string>
+    <string name="food_4">深圳的乌头鱼主要产于西部合澜海域咸淡水交汇处，尤以福永乌头鱼最为著名。乌头鱼又称“新鱼”，体形较小且呈圆形，最重不超过半斤，全身只有一条脊骨，肉多骨少，便于食用，而且肉味鲜美。</string>
+    <string name="food_5">龙岗三黄鸡是深圳远近闻名而又有悠久历史的特产。与一般鸡相比，其有饲养方便，抗疾病能力强，成活率高，成长快，产量极易提高等优势。烹调上以黄焖和瓦罐煲汤为主，色香味俱全，且营养成份极易吸收。三黄鸡体形高大健壮，鸡肉厚实细嫩，皮雪白油滑光鲜，骨柔软可嚼，食用价值极高，是滋阴壮阳、补充精力的上等膳食。</string>
+    <string name="food_6">基围虾是深圳西乡镇创汇的主要水产品。西乡因其得天独厚的地理位置而成为深圳最主要的基围虾产地。西乡产的基围虾体积较小，状如中指，全身透明略带麻点，虾皮特别薄，肉质非常细嫩，鲜美可口，营养丰富，其蛋白质含量与沙井蚝相媲美。西乡基围虾因而也成为深圳有名的地方特产。</string>
+    <string name="food_7">"无钱买鸡蛋，餐餐食海胆。"是在南澳流传甚广的俗话。海胆，对于城市人来讲是十分名贵的菜肴，在当地人眼中看来只是一些比鸡蛋更为普通的东西。南澳海胆有着南方特有的娇嫩，它们一般生活在水深1米多的石头上、石缝里，有着好看的金黄色，肉质幼嫩、细滑，却带点酸味。</string>
+    <string name="food_8">椰子鸡是一道色香味俱全的名肴，属于海南菜。用椰子和嫩鸡蒸煮而成，口味咸鲜，椰味芬芳，汤清爽口，有益气生津的效果。椰子炖鸡汤除了可以美容外，且营养丰富，味鲜。这道汤宜在热暑天进食。不仅是消暑解热的妙品，又是滋养内脏，润肺养颜，滋补养生之靓汤。</string>
+    <string name="food_9">深圳笼仔饭的最大特点是香浓的饭里浸着浓浓的荷叶香，这是由于荷叶紧紧包裹着饭长时间蒸的缘故，当然并不仅仅如此。荷叶笼仔饭的味道和煲仔饭很相似,香喷喷的，味道浓厚，有香菇鸡、腊味、卤味、海鲜饭等品种供人们选择。煲仔饭有厚厚的锅巴，用勺子一挖一挖地感觉蛮有趣，而荷叶笼仔饭就没有这么麻烦，浓香中飘着荷叶的淡淡清香。创作出荷香饭的灵感来自广东的传统食品糯米鸡。</string>
+    <string name="food_10">客家的盆菜驰名四方，不少深圳的大酒楼、餐厅都爱在冬天时推出盆菜，但大部分的盆菜都经改良，加入不少名贵菜式，如：大虾、带子、元贝等，但正宗的客家盆菜，全无这些海中的名贵材料，因为客家人一般住在山区，所以大部分材料都以蔬菜、肉类为主。最初的盆菜是山区的客家人，过年过节时，各人带　自备的食物相聚一堂，但山路崎岖，相聚时食物已冷却，翻热时把所有食物倒在一个大盆中煮热，就成了盆菜的雏形，现在客家人红白二事，过年庆祝都会在自家围屋内大摆盆菜宴。</string>
+    <string name="food_11">广东早茶是一种岭南民间饮食风俗。广东人饮早茶，有的是当作早餐的，一般都是全家老小围坐一桌，共享天伦之乐。有的喝完早茶即去上班，有的则以此消闲。消闲族大多为街坊退休老人，他们一般来得最早，离去最迟，从早上茶馆开门可以一直坐到早茶“收档”。这类茶客不去豪华酒家、高档茶楼或宾馆，而到就近街边经济实惠的小茶馆。如去高档茶楼，人均消费可以和酒宴差不多。“请早茶”也是广东人一种通常的社交方式。</string>
+    <string name="food_12">猪肚包鸡，又名猪肚包鸡火锅、凤凰投胎。是广东省传统的地方名菜，属于粤菜系。流行于广东的惠州、河源、梅州等粤东一带。广东客家地区酒席必备的餐前用汤，汤里浓中带清，有浓郁的药材味和胡椒香气。</string>
+    <string name="food_13">玉簪虾球是一道广东省的传统名菜，属于粤菜系。芦笋只取顶端部分，因其外形酷似玉簪。</string>
+
+</resources>

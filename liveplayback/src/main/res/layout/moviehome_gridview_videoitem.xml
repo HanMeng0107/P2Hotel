@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/w_326"
+    android:layout_height="@dimen/h_439">
+
+    <ImageView
+
+        android:id="@+id/movie_item_onfocus"
+        android:layout_width="@dimen/w_300"
+        android:layout_height="@dimen/h_412"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/moviehome_movieitem_onselected"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView_videoIcon"
+        android:layout_width="@dimen/w_228"
+        android:layout_height="@dimen/h_340"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/h_37"
+        android:src="@drawable/movie_thum_test" />
+
+    <TextView
+        android:id="@+id/textView_videoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/h_20"
+        android:ellipsize="end"
+        android:maxEms="8"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="@string/videoname"
+        android:textColor="#666666"
+        android:textSize="@dimen/h_26" />
+
+</RelativeLayout>

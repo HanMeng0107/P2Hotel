@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/w_240"
+    android:layout_height="@dimen/h_240"
+    android:layout_marginRight="@dimen/w_10">
+
+    <ImageView
+        android:id="@+id/hotel_server_bg"
+        android:layout_width="@dimen/w_200"
+        android:layout_height="@dimen/h_200"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_hotel"
+        android:focusable="true" />
+
+    <ImageView
+        android:id="@+id/hotel_server_img"
+        android:layout_width="@dimen/w_96"
+        android:layout_height="@dimen/h_96"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/h_58" />
+
+    <TextView
+        android:id="@+id/hotel_server_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/h_41"
+        android:textColor="#999999"
+        android:textSize="@dimen/h_26" />
+
+    <ImageView
+        android:id="@+id/hotel_server_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/focus_hotel_server"
+        android:visibility="gone" />
+</FrameLayout>

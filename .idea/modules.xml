@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/P2Hotel.iml" filepath="$PROJECT_DIR$/P2Hotel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/liveplayback/liveplayback.iml" filepath="$PROJECT_DIR$/liveplayback/liveplayback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/superijkplayer/superijkplayer.iml" filepath="$PROJECT_DIR$/superijkplayer/superijkplayer.iml" />
+    </modules>
+  </component>
+</project>

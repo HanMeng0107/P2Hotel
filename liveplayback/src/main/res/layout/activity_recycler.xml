@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+
+    <include
+        layout="@layout/layout_weather_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_130" />
+
+    <FrameLayout
+        android:id="@+id/main_movie_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_670"
+        android:layout_marginTop="@dimen/h_145"
+        android:orientation="horizontal">
+
+        <include
+            layout="@layout/layout_shadows"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/arrow_left"
+            android:layout_width="@dimen/w_86"
+            android:layout_height="@dimen/h_86"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/arrow_left" />
+
+        <ImageView
+            android:id="@+id/arrow_right"
+            android:layout_width="@dimen/w_86"
+            android:layout_height="@dimen/h_86"
+            android:layout_gravity="center_vertical|end"
+            android:src="@mipmap/arrow_right" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/grid_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/h_660"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/w_60"
+            android:layout_marginRight="@dimen/w_60"
+            android:overScrollMode="never"
+            android:scrollbars="none" />
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_100"
+        android:layout_alignParentBottom="true"
+        android:background="#d7dae0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/w_90"
+            android:text="欢迎张先生下榻SS大酒店" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/w_1100"
+                android:text="WIFI名称:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/w_10"
+                android:text="kupasoftware" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/w_20"
+                android:text="WIFI密码:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/w_10"
+                android:text="kupasoftware" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/w_50"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="@dimen/w_30"
+            android:src="@mipmap/wifi" />
+
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/server_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_200"
+        android:layout_above="@id/main_bottom"
+        android:layout_marginLeft="@dimen/w_60"
+        android:layout_marginRight="@dimen/w_60"
+        android:layout_marginBottom="@dimen/h_10"
+        android:descendantFocusability="afterDescendants"
+        android:scrollbars="none" />
+
+
+</RelativeLayout>

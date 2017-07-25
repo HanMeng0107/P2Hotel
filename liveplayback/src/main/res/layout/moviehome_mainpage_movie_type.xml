@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_searchname"
+    android:layout_width="@dimen/w_280"
+    android:layout_height="@dimen/h_66"
+    android:gravity="center_vertical|center_horizontal"
+    android:minHeight="@dimen/h_66"
+    android:text="热门精选"
+    android:textColor="@drawable/moviehome_liseview_itemselected"
+    android:textSize="36px" />

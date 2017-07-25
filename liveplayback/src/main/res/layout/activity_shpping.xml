@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_hotel_server">
+
+    <include
+        layout="@layout/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_174" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_shop_menu"
+        android:layout_width="@dimen/w_278"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/h_74"
+        android:layout_marginLeft="@dimen/w_90"
+        android:layout_marginTop="@dimen/h_212" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_shop_goods"
+        android:layout_width="@dimen/w_1470"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/h_74"
+        android:layout_marginLeft="@dimen/w_368"
+        android:layout_marginTop="@dimen/h_160"
+        android:background="#ffffff"
+        android:paddingBottom="@dimen/h_30" />
+
+    <include
+        android:id="@+id/layout_qr"
+        layout="@layout/layout_shop_qr"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

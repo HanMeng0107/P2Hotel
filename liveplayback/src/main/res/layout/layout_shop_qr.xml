@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50333333">
+
+    <FrameLayout
+        android:layout_width="@dimen/w_506"
+        android:layout_height="@dimen/h_659"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_qr">
+
+        <ImageView
+            android:layout_width="@dimen/w_380"
+            android:layout_height="@dimen/w_380"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/h_70"
+            android:src="@mipmap/shop_qr" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/h_120"
+            android:text="手机扫码支付" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/h_70"
+            android:text="10min内派送至酒店房间" />
+    </FrameLayout>
+</FrameLayout>

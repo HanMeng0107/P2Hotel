@@ -1,0 +1,100 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+          Base application theme, dependent on API level. This theme is replaced
+          by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+      -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- 设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置全屏-->
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowBackground">@mipmap/mainpage_hotel</item>-->
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+    <!--自定义dialog背景全透明无边框theme -->
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <!--背景颜色及和透明程度-->
+        <item name="android:windowBackground">@color/transparent</item>
+        //就是用来控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容，系统的默认值是0.5
+        <item name="android:backgroundDimAmount">0.5</item>
+        <!--是否去除标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否去除边框-->
+        <item name="android:windowFrame">@null</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="MovieDetailPage_MovieGrade_TextStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">30px</item>
+        <item name="android:textColor">@color/movie_detail_movie_name</item>
+    </style>
+
+    <style name="MovieDetailPage_MovieName_TextStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textColor">@color/movie_detail_movie_name</item>
+        <item name="android:textSize">50px</item>
+    </style>
+
+    <style name="MovieDetailPage_MovieDetail_Common_TextStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:textColor">@color/title_text</item>
+    </style>
+
+    <style name="MovieDetailPage_MovieDetail_MoviewAbstract_TextStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">24px</item>
+        <item name="android:textColor">@color/movie_item_text</item>
+    </style>
+
+    <style name="MovieDetailPage_MovieDetail_DirectAndLeading_TextStyle">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textSize">26px</item>
+        <item name="android:textColor">@color/movie_item_text</item>
+    </style>
+
+    <style name="MovieDetailTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="myTransparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+</resources>

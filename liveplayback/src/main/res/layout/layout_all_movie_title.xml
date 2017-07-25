@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="@dimen/w_155"
+        android:layout_height="@dimen/h_32"
+        android:layout_marginLeft="@dimen/w_93"
+        android:layout_marginTop="@dimen/h_76"
+        android:background="@mipmap/kupa_logo_alpha" />
+
+    <TextView
+        android:id="@+id/movies_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/h_50"
+        android:layout_marginLeft="@dimen/w_422"
+        android:text="电影"
+        android:textColor="@color/title_text"
+        android:textSize="@dimen/h_50" />
+
+    <TextView
+        android:id="@+id/movie_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/h_53"
+        android:layout_marginLeft="@dimen/w_50"
+        android:layout_toRightOf="@+id/movies_title_name"
+        android:text="热门精选"
+        android:textColor="@color/title_text"
+        android:textSize="@dimen/h_32" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/h_53"
+        android:layout_marginRight="@dimen/w_90"
+        android:text="1/6"
+        android:textColor="@color/title_page"
+        android:textSize="@dimen/h_32" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/w_288"
+    android:layout_height="@dimen/h_188"
+    android:layout_marginLeft="@dimen/w_12"
+    android:layout_marginTop="@dimen/h_51">
+
+    <ImageView
+        android:id="@+id/item_food_bg"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/focus_view" />
+
+    <FrameLayout
+        android:layout_width="@dimen/w_240"
+        android:layout_height="@dimen/h_140"
+        android:layout_gravity="center">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/item_food_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:riv_corner_radius="@dimen/h_10"
+            app:riv_mutate_background="true" />
+
+        <View
+            android:id="@+id/item_food_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_food"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/item_food_focus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_food" />
+
+        <TextView
+            android:id="@+id/item_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="@dimen/h_14"
+            android:layout_marginRight="@dimen/w_14"
+            android:text="肠粉"
+            android:textColor="#e6e6e6"
+            android:textSize="@dimen/h_26" />
+    </FrameLayout>
+</FrameLayout>

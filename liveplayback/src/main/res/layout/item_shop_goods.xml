@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/w_224"
+    android:layout_height="@dimen/h_370"
+    android:layout_marginLeft="@dimen/w_46"
+    android:layout_marginRight="@dimen/w_46"
+    android:layout_marginTop="@dimen/h_46">
+
+    <ImageView
+        android:id="@+id/shop_goods_focus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/focus_goods"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:layout_width="@dimen/w_190"
+        android:layout_height="@dimen/h_240"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/h_18"
+        android:background="@drawable/bg_goods">
+
+        <ImageView
+            android:id="@+id/shop_goods_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@mipmap/goods" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/shop_goods_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/h_48"
+        android:layout_marginLeft="@dimen/w_12"
+        android:layout_marginRight="@dimen/w_12"
+        android:maxLines="2"
+        android:textColor="#333333"
+        android:textSize="@dimen/h_22" />
+
+    <TextView
+        android:id="@+id/shop_goods_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/h_13"
+        android:layout_marginLeft="@dimen/w_12"
+        android:maxLines="2"
+        android:text="￥ 25.80"
+        android:textColor="#fe7e80"
+        android:textSize="@dimen/h_22" />
+
+
+</FrameLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/h_100"
+            layout="@layout/kupa_base_common_layout_title" />
+    -->
+    <LinearLayout
+        android:layout_width="@dimen/w_340"
+        android:layout_height="match_parent"
+        android:background="@drawable/moviehome_listview_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/w_155"
+            android:layout_height="@dimen/h_32"
+            android:layout_marginLeft="@dimen/w_93"
+            android:layout_marginRight="@dimen/w_93"
+            android:layout_marginTop="@dimen/h_76"
+            android:src="@mipmap/kupa_logo_alpha" />
+
+        <ImageView
+            android:id="@+id/qrccode"
+            android:layout_width="@dimen/w_174"
+            android:layout_height="@dimen/w_174"
+            android:layout_marginLeft="@dimen/w_93"
+            android:layout_marginRight="@dimen/w_93"
+            android:layout_marginTop="@dimen/h_53"
+            android:src="@drawable/qrcode" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/h_16"
+            android:text="手机点播"
+            android:textAlignment="center"
+            android:textColor="#666666"
+            android:textSize="@dimen/h_26" />
+
+        <ImageView
+            android:id="@+id/moviehome_listview_up"
+            android:layout_width="@dimen/w_46"
+            android:layout_height="@dimen/h_26"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/h_5"
+            android:src="@drawable/moviehome_listview_up"
+            android:visibility="invisible" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/moviehome_movie_type"
+            android:layout_width="@dimen/w_300"
+            android:layout_height="@dimen/h_540"
+            android:layout_marginTop="@dimen/h_5" />
+        <!--
+            <ListView
+                android:id="@+id/moviehome_movie_type"
+                android:layout_width="@dimen/w_300"
+                android:layout_height="@dimen/h_552"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/h_15"
+                android:background="@color/red"
+                android:divider="#00000000"
+                android:dividerHeight="@dimen/h_15"
+                android:listSelector="@mipmap/movietype_item_back"
+                android:scrollbars="none" />
+        -->
+
+        <ImageView
+            android:id="@+id/moviehome_listview_down"
+            android:layout_width="@dimen/w_46"
+            android:layout_height="@dimen/h_26"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/h_60"
+            android:layout_marginTop="@dimen/h_5"
+            android:src="@drawable/moviehome_listview_down"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/h_60"
+        android:layout_marginLeft="@dimen/w_62"
+        android:layout_marginTop="@dimen/h_60"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_20"
+            android:layout_marginRight="@dimen/w_90"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_gridviewtitlemovie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/video"
+                android:textColor="#999999"
+                android:textSize="@dimen/h_50" />
+
+            <TextView
+                android:id="@+id/moviehome_title_movietype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/w_50"
+                android:layout_marginTop="@dimen/h_19"
+                android:layout_toRightOf="@id/tv_gridviewtitlemovie"
+                android:text="@string/hot_movie"
+                android:textColor="#999999"
+                android:textSize="@dimen/h_32" />
+
+            <TextView
+                android:id="@+id/moviehome_title_current_movienum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/w_69"
+                android:layout_marginTop="@dimen/h_19"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="@dimen/h_32" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/w_60"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/moviehome_allmovie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tv_noMovie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="没有视频哎╮(╯_╰)╭"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

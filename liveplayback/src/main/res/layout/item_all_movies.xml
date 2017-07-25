@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/w_326"
+    android:layout_height="@dimen/h_460"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/movie_focus_img"
+        android:layout_width="@dimen/w_300"
+        android:layout_height="@dimen/h_412"
+        android:visibility="gone"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/bg_movie_focus_blue" />
+
+    <ImageView
+        android:id="@+id/movie_img"
+        android:layout_width="@dimen/w_228"
+        android:layout_height="@dimen/h_340"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/h_37"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/movie_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/h_20"
+        android:text="电影名字"
+        android:textColor="@color/movie_item_text"
+        android:textSize="@dimen/h_26" />
+
+</FrameLayout>

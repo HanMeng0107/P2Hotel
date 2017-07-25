@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:addStatesFromChildren="true"
+    android:background="@color/black" >
+
+    <ImageView
+        android:layout_width="@dimen/w_297"
+        android:layout_height="@dimen/h_50"
+        android:layout_gravity="center_vertical|left"
+        android:layout_marginLeft="@dimen/w_10"
+        android:contentDescription="@string/titlelogo"
+        android:src="@drawable/mainpage_kupalogo" />
+
+    <com.hejunlin.liveplayback.view.MyTextView
+        android:id="@+id/uesr_name"
+        android:layout_width="@dimen/w_800"
+        android:layout_height="@dimen/h_50"
+        android:layout_gravity="center"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/welcom"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/h_50"
+        android:layout_gravity="center|right"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mainPage_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_50"
+            android:layout_marginRight="@dimen/w_20"
+            android:text="@string/mainPage_time"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <View
+            android:layout_width="@dimen/w_2"
+            android:layout_height="@dimen/h_50"
+            android:layout_marginRight="@dimen/w_20"
+            android:background="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/h_50"
+            android:layout_marginRight="@dimen/w_50"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/h_25"
+                android:layout_gravity="center"
+                android:text="@string/weather"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/title_date"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/h_25"
+                android:layout_gravity="center"
+                android:text="@string/titledate"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

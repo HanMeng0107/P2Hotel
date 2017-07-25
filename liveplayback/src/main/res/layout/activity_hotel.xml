@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_activity_hotel">
+
+    <include
+        layout="@layout/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_174" />
+
+    <FrameLayout
+        android:layout_width="@dimen/w_900"
+        android:layout_height="@dimen/h_800"
+        android:layout_marginLeft="@dimen/w_138"
+        android:layout_marginTop="@dimen/h_174"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/w_75"
+            android:layout_marginRight="@dimen/w_75"
+            android:layout_marginTop="@dimen/h_68"
+            android:lineSpacingExtra="@dimen/h_8"
+            android:maxLines="7"
+            android:text="        万绿湖美思威尔顿酒店是一家集住宿、餐饮、娱乐、会议为一体的休闲型“绿色饭店”。酒店坐落于风景秀美的国家4A级风景区万绿湖畔，地理位置得天独厚，自然资源十分优越。这里青山逶迤，碧波微澜，泉水潺潺，鸟语花香，植被茂密，空气清新，是个天然的“大自然氧吧”，是您远离喧嚣，放松身心的理想休憩之地。"
+            android:textColor="#535353"
+            android:textSize="@dimen/h_22" />
+
+        <ImageView
+            android:layout_width="@dimen/w_750"
+            android:layout_height="@dimen/h_422"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="@dimen/h_60"
+            android:src="@mipmap/img_hotel" />
+
+    </FrameLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_hotel_server"
+        android:layout_width="@dimen/w_500"
+        android:layout_height="@dimen/h_720"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/w_190"
+        android:layout_marginTop="@dimen/h_220" />
+
+</FrameLayout>

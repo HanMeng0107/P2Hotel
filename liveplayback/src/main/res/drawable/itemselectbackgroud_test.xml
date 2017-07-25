@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">  
+   
+    <!-- normal -->  
+    <item android:state_enabled="true" android:state_focused="false" android:state_pressed="false">  
+        <layer-list>  
+            <item android:bottom="15dp" android:left="15dp" android:right="15dp" android:top="15dp">  
+                <shape android:shape="oval">  
+                   <gradient  
+                        android:type="radial" 
+                        android:startColor="@color/white" 
+                        android:centerColor="@color/white_50" 
+                        android:endColor="@color/black_50" 
+                        android:gradientRadius="100"/>   
+                </shape>  
+            </item>  
+        </layer-list>  
+    </item>  
+   
+    <!-- pressed -->  
+    <item android:state_enabled="true" android:state_pressed="true">  
+        <layer-list>  
+            <item android:bottom="15dp" android:left="15dp" android:right="15dp" android:top="15dp">  
+                <shape android:shape="oval"> 
+                    <gradient  
+                        android:type="radial" 
+                        android:startColor="@color/white" 
+                        android:centerColor="@color/white_50" 
+                        android:endColor="@color/blue" 
+                        android:gradientRadius="100"/>    
+                </shape>  
+            </item>  
+        </layer-list>  
+    </item>  
+   
+    <!-- selected -->  
+    <item android:state_enabled="true" android:state_focused="true" android:state_pressed="false">  
+        <layer-list>  
+            <item >  
+                <shape android:shape="oval">  
+                     <gradient  
+                        android:type="radial" 
+                        android:startColor="@color/white" 
+                        android:centerColor="@color/white_50" 
+                        android:endColor="@color/dodgerblue" 
+                        android:gradientRadius="100"/>   
+                </shape>  
+            </item>  
+        </layer-list>  
+    </item>  
+ </selector>

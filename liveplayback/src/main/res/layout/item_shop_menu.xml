@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/h_78">
+
+    <TextView
+        android:id="@+id/shop_menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#999999"
+        android:textSize="@dimen/h_36" />
+
+    <View
+        android:id="@+id/shop_menu_focus"
+        android:layout_width="@dimen/w_8"
+        android:visibility="gone"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+
+</FrameLayout>

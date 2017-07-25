@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/w_50">
+
+        <TextView
+            android:id="@+id/movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxEms="14"
+            android:maxLines="1"
+            android:text="一条狗的使命"
+            android:textColor="#fe7e80"
+            android:textSize="@dimen/h_50" />
+
+        <TextView
+            android:id="@+id/movie_grade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:text="9.3分"
+            android:textColor="#fe7e80"
+            android:textSize="@dimen/h_30" />
+
+    </FrameLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_38" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/w_50">
+
+        <TextView
+            android:id="@+id/movie_dateandarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2017年 | 美国"
+            android:textColor="#999999"
+            android:textSize="@dimen/h_24" />
+
+        <TextView
+            android:id="@+id/movie_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="剧情 / 喜剧 / 冒险"
+            android:textColor="#999999"
+            android:textSize="@dimen/h_24" />
+
+        <TextView
+            android:id="@+id/movie_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="片长：101分钟"
+            android:textColor="#999999"
+            android:textSize="@dimen/h_24" />
+
+    </FrameLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_28" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/h_30"
+        android:layout_marginLeft="@dimen/w_50"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/w_3"
+            android:layout_height="@dimen/h_26"
+            android:layout_gravity="bottom"
+            android:background="#fe7e80" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/w_10"
+            android:text="导演："
+            android:textColor="#666666"
+            android:textSize="@dimen/h_26" />
+
+        <TextView
+            android:id="@+id/movie_director"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="拉斯·霍尔斯道姆"
+            android:textColor="#999999"
+            android:textSize="@dimen/h_26" />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_28" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/h_30"
+        android:layout_marginLeft="@dimen/w_50"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/w_3"
+            android:layout_height="@dimen/h_26"
+            android:layout_gravity="bottom"
+            android:background="#fe7e80" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/w_10"
+            android:text="主演："
+            android:textColor="#666666"
+            android:textSize="@dimen/h_26" />
+
+        <TextView
+            android:id="@+id/movie_protagonist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="布里特·罗伯森 / 丹尼尔·奎德 / 佩吉·立普顿 / 乔什·加德... ..."
+            android:textColor="#999999"
+            android:textSize="@dimen/h_26" />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/h_28" />
+
+    <TextView
+        android:id="@+id/movie_abstract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/w_50"
+        android:lineSpacingExtra="@dimen/h_13"
+        android:maxLines="3"
+        android:text="一个温顺可爱的狗狗贝利与主人意外的相遇开始了主人和汪星人的四世宠物情缘。贝利在成长过程中，帮助主人找到人生的伴侣，在危难之际拯救全家人的生命，到之后化身警犬破案，狗狗为主人奉献了自己的全部。它既... ..."
+        android:textColor="#999999"
+        android:textSize="@dimen/h_26" />
+
+
+    <FrameLayout
+        android:layout_width="@dimen/w_260"
+        android:layout_height="@dimen/h_116"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/w_25">
+
+        <TextView
+            android:id="@+id/tv_play"
+            android:layout_width="@dimen/w_212"
+            android:layout_height="@dimen/h_66"
+            android:layout_gravity="center"
+            android:background="@drawable/style_play"
+            android:drawableLeft="@mipmap/play_no"
+            android:focusable="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingLeft="@dimen/w_20"
+            android:text="  播放"
+            android:textColor="#569bd5"
+            android:textSize="@dimen/h_26" />
+
+        <ImageView
+            android:id="@+id/iv_play_focus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bg_button"
+            android:visibility="gone" />
+    </FrameLayout>
+    <!--
+            <FrameLayout
+                android:layout_width="@dimen/w_208"
+                android:layout_height="@dimen/h_116"
+                android:layout_marginLeft="@dimen/w_65">
+
+                <TextView
+                    android:id="@+id/tv_keep"
+                    android:layout_width="@dimen/w_160"
+                    android:layout_height="@dimen/h_66"
+                    android:layout_gravity="center"
+                    android:background="@drawable/style_play"
+                    android:drawableLeft="@mipmap/keep_no"
+                    android:focusable="true"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/w_35"
+                    android:text="收藏"
+                    android:textColor="#569bd5"
+                    android:textSize="@dimen/h_26" />
+
+                <ImageView
+                    android:id="@+id/iv_keep_focus"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@mipmap/bg_button"
+                    android:visibility="gone" />
+            </FrameLayout>
+    -->
+
+
+</LinearLayout>
